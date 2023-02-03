@@ -1,5 +1,10 @@
+li {
+    text-align: center;
+}
+
 section {
     text-align: center;
+    
 }
 
 .about {
@@ -9,11 +14,12 @@ section {
 
 .portfolio {
     text-align: center;
+    text-decoration: underline;
 }
 
 .contact {
     text-align: center;
-
+text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) {}
