@@ -1,0 +1,49 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    display: flexbox;
+    flex-wrap: wrap;
+    background-color: rgb(226, 213, 161);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-shrink: inherit;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: flex;
+    margin-top: auto;
+    text-align: center;
+    background-color: rgb(223, 6, 20);
+    padding: 15px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: end;
+    font-size: 20px;
+}
+
+figcaption {
+    background-image: -moz-element(img src="C:\Users\Owner\OneDrive\Pictures\Camera Roll\20170411_033531000_iOS.jpg" alt="selfie");
+    flex-direction: row-reverse;
+}
+
+ section {
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+} 
+.about {
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
